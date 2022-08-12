@@ -3,8 +3,7 @@ import whiskerson from "./assets/mr-whiskerson.png"
 import phoneIcon from "./assets/phone-icon.png"
 import mailIcon from "./assets/mail-icon.png"
 
-export default function Contact(props) {
-  const { img, name , phone, email } = props
+export default function Contact({ img, name , phone, email }) {
   return (
     <div className="contact-card">
       <img src={img} />
